@@ -1,0 +1,28 @@
+1.  It's a header file in C which has all the new int types that allows for more code specs.
+specify exact width int types and defined min and max allowance
+
+2.  what's the pt of using uint8_t, uint32_t, int32_t, and uint16_t in a program.
+They are equal respectively to: unsigned char, unsigned short, unsigned int and unsigned long long.
+
+3.  How many bytes in each?
+BYTE: 8 bits (1byte)
+DWORD: 32 bits (4bytes)
+LONG: 32 bits(4bytes)
+LONG LONG: 64 bits (8bytes)
+WORD: 16 bits (2 bytes)
+
+4.  B & M in ASCII is the first 2 bits of any BMP file
+
+5.  difference between bfSize and biSize
+bfSize is the size of the whole bmp file, which includes the headerfiles, while biSize is the size of the
+BITMAPINFOHEADER header file.
+
+6.  what does it mean if biHeight is negative
+the bitmap is a top-down DIB and its origin is the upper-left corner. ... Top-down DIBs cannot be compressed.
+
+7.  what field in BITMAPINFOHEADER specifies the BMP's color depth? (bits per pixel)
+8.  why might fopen return NULL in lines 24 and 32 of copy.c
+9.  why is the third argument of fread always 1 in our code
+10. what value does line 65 of copy.c assign to padding if bi.biWidth is 3?
+11. what does fseek do
+12. what is SEEK_CUR
